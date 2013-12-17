@@ -1,0 +1,4 @@
+alias 'll' 'ls -la'
+
+set MAVEN_OPTS "-Xms256m -Xmx1024m -XX:MaxPermSize=1024m"
+set PATH "/usr/local/bin" $PATH
