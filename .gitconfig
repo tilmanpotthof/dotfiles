@@ -1,3 +1,7 @@
 [user]
 	email = tilmanpotthof@googlemail.com
 	name = Tilman Potthof
+[push]
+	default = matching
+[core]
+	editor = emacs
