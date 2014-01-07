@@ -18,7 +18,8 @@ set fish_theme robbyrussell
 alias 'll' 'ls -la'
 
 # homebrew binaries first
-set PATH "/usr/local/bin" $PATH
+setenv PATH "/usr/local/bin" $PATH
 
 # more java memory
-set MAVEN_OPTS "-Xms256m -Xmx2048m"
+#setenv MAVEN_OPTS "-Xmx4096m -XX:MaxPermSize=2048m"
+setenv JAVA_HOME "/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home"
